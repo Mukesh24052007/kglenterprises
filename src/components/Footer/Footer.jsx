@@ -1,5 +1,11 @@
-import "./style.css";
-import { Phone, Mail, Instagram, Youtube } from "lucide-react";
+import {
+  Phone,
+  Mail,
+  Instagram,
+  Youtube
+} from 'lucide-react'
+
+import "./style.css"
 
 const Footer = () => {
   return (
@@ -39,7 +45,7 @@ const Footer = () => {
         <p className="footer-copy">© {new Date().getFullYear()} KGL Enterprises. All rights reserved.</p>
       </div>
     </footer>
-  );
-};
+  )
+}
 
 export default Footer;

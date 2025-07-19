@@ -1,10 +1,14 @@
-import "./style.css";
-import Typed from "typed.js";
-import { useEffect, useRef } from "react";
+import {
+  useEffect,
+  useRef
+} from 'react'
+import Typed from 'typed.js'
+
+import "./style.css"
 
 const Hero = () => {
   const company = "KGL Enterprises";
-  const el = useRef(null); // DOM element reference
+  const el = useRef(null);
 
   useEffect(() => {
     const typed = new Typed(el.current, {
@@ -19,7 +23,7 @@ const Hero = () => {
     });
 
     return () => {
-      typed.destroy(); // cleanup on unmount
+      typed.destroy();
     };
   }, []);
 
@@ -43,7 +47,7 @@ const Hero = () => {
         </div>
       </div>
     </section>
-  );
-};
+  )
+}
 
 export default Hero;

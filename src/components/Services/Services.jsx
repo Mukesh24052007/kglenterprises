@@ -1,4 +1,4 @@
-import "./style.css";
+import "./style.css"
 
 const Services = () => {
   return (
@@ -35,7 +35,7 @@ const Services = () => {
         </p>
       </div>
     </section>
-  );
-};
+  )
+}
 
 export default Services;

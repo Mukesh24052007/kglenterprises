@@ -1,8 +1,8 @@
 .footer-section {
-  background: #1a1a1a;
   color: #ffffff;
   padding: 4vh 5vw;
   text-align: center;
+  background: #1a1a1a;
 }
 
 .footer-content {
@@ -11,25 +11,29 @@
 }
 
 .footer-content h3 {
-  font-size: 2rem;
   margin-bottom: 1rem;
+
+  font-size: 2rem;
   color: #ffffff;
 }
 
 .footer-contact {
-  list-style: none;
-  padding: 0;
-  margin: 0 auto 1.5rem;
   display: flex;
   flex-direction: column;
-  gap: 0.8rem;
   align-items: center;
+  gap: 0.8rem;
+
+  padding: 0;
+  margin: 0 auto 1.5rem;
+
+  list-style: none;
 }
 
 .footer-contact li {
   display: flex;
   align-items: center;
   gap: 0.6rem;
+
   font-size: 1rem;
 }
 
