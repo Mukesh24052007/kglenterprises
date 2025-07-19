@@ -1,10 +1,10 @@
 #header {
-  width: 100dvw;
+  width: 100%;
   height: 10dvh;
   padding: 1em;
   position: fixed;
 
-  background-color: #87cfebe0;
+  background-color: #2F8132;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   z-index: 100;
 }
@@ -16,20 +16,22 @@
 
   width: 100%;
   height: 100%;
-  max-width: 100em;
+  max-width: 90em;
   margin: 0 auto;
 }
 
 .logo {
   width: 4em;
-  height: 100%;
+  height: auto;
+  max-height: 100%;
+  overflow: hidden;
 }
 
 .logo img {
   width: 100%;
-  height: 100%;
-
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  height: auto;
+  max-height: 100%;
+  display: block;
 }
 
 /* Nav styles */
@@ -44,8 +46,8 @@
 
   text-decoration: none;
   border-radius: 0.4em;
-  color: white;
-  background-color: #2cb32c;
+  color: black;
+  background-color: #FFF880;
   transition: all 0.3s ease;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
